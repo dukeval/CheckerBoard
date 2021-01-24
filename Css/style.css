@@ -1,0 +1,95 @@
+.container {
+  width: 100%;
+}
+
+.intro {
+  margin: 0 auto;
+  width: 50%;
+}
+
+.intro h1 {
+  text-align: center;
+}
+
+.row {
+  background: grey;
+  height: 80px;
+}
+
+.board {
+  margin: 0 auto;
+  border: 1px solid gray;
+  width: 50%;
+}
+
+.square {
+  width: 12%;
+  height: 80px;
+  margin: 0;
+  padding: 0;
+}
+
+.Black {
+  background: #000000;
+}
+
+.White {
+  background: #ffffff;
+}
+
+.col {
+  display: inline-block;
+}
+
+.moveReplay {
+  position: relative;
+  display: block;
+  margin: 0 auto;
+  width: 50%;
+}
+
+.replayContent {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.card {
+  width: 100%;
+  padding: 5px;
+  text-align: center;
+}
+
+.left {
+  float: left;
+}
+
+.moves {
+  text-align: left;
+}
+
+.playableSquare {
+  height: 100%;
+}
+
+.player1ChessPieces {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: black;
+  padding: 25px 0 0 30px;
+  border: 2px solid gray;
+}
+
+.player2ChessPieces {
+  width: 50px;
+  height: 50px;
+  border-radius: 100%;
+  background: red;
+  padding: 25px 0 0 30px;
+  border: 2px solid gray;
+}
+
+.highLight {
+  border: 5px solid green;
+}

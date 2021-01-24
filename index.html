@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>CheckerBoard</title>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="content">
+        <div class="intro">
+          <h1>Welcome!!</h1>
+          <p>
+            <h3>How to Play</h3>
+            <div>
+              <ul>
+                <li>
+                  Click the piece you want to move.
+                </li>
+                <li>Click on the square you want to place the selected piece.</li>
+                <li>
+                  Double click to unselect piece(s).
+                </li>
+              </ul>
+            </div>
+          </p>
+        </div>
+        <div class="board">
+          <div class="row">
+            <div id="two" class="col square White"></div>
+            <div id="one" class="col square Black">
+              <div
+                class="playableSquare player1ChessPieces"
+                data-position="1,2"
+              ></div>
+            </div>
+            <div id="four" class="col square White"></div>
+            <div id="three" class="col square Black">
+              <div
+                class="playableSquare player1ChessPieces"
+                data-position="1,4"
+              ></div>
+            </div>
+            <div id="six" class="col square White"></div>
+            <div id="five" class="col square Black">
+              <div
+                class="playableSquare player1ChessPieces"
+                data-position="1,6"
+              ></div>
+            </div>
+            <div id="eight" class="col square White"></div>
+            <div id="seven" class="col square Black">
+              <div
+                class="playableSquare player1ChessPieces"
+                data-position="1,8"
+              ></div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col square Black">
+              <div
+                class="playableSquare player1ChessPieces"
+                data-position="2,1"
+              ></div>
+            </div>
+            <div class="col square White"></div>
+            <div class="col square Black">
+              <div
+                class="playableSquare player1ChessPieces"
+                data-position="2,3"
+              ></div>
+            </div>
+            <div class="col square White"></div>
+            <div class="col square Black">
+              <div
+                class="playableSquare player1ChessPieces"
+                data-position="2,5"
+              ></div>
+            </div>
+            <div class="col square White"></div>
+            <div class="col square Black">
+              <div
+                class="playableSquare player1ChessPieces"
+                data-position="2,7"
+              ></div>
+            </div>
+            <div class="col square White"></div>
+          </div>
+
+          <div class="row">
+            <div id="two" class="col square White"></div>
+            <div id="one" class="col square Black">
+              <div
+                class="playableSquare player1ChessPieces"
+                data-position="3,2"
+              ></div>
+            </div>
+            <div id="four" class="col square White"></div>
+            <div id="three" class="col square Black">
+              <div
+                class="playableSquare player1ChessPieces"
+                data-position="3,4"
+              ></div>
+            </div>
+            <div id="six" class="col square White"></div>
+            <div id="five" class="col square Black">
+              <div
+                class="playableSquare player1ChessPieces"
+                data-position="3,6"
+              ></div>
+            </div>
+            <div id="eight" class="col square White"></div>
+            <div id="seven" class="col square Black">
+              <div
+                class="playableSquare player1ChessPieces"
+                data-position="3,8"
+              ></div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col square Black">
+              <div class="playableSquare" data-position="4,1"></div>
+            </div>
+            <div class="col square White"></div>
+            <div class="col square Black">
+              <div class="playableSquare" data-position="4,3"></div>
+            </div>
+            <div class="col square White"></div>
+            <div class="col square Black">
+              <div class="playableSquare" data-position="4,5"></div>
+            </div>
+            <div class="col square White"></div>
+            <div class="col square Black">
+              <div class="playableSquare" data-position="4,7"></div>
+            </div>
+            <div class="col square White"></div>
+          </div>
+          <div class="row">
+            <div id="two" class="col square White"></div>
+            <div id="one" class="col square Black">
+              <div class="playableSquare" data-position="5,2"></div>
+            </div>
+            <div id="four" class="col square White"></div>
+            <div id="three" class="col square Black">
+              <div class="playableSquare" data-position="5,4"></div>
+            </div>
+            <div id="six" class="col square White"></div>
+            <div id="five" class="col square Black">
+              <div class="playableSquare" data-position="5,6"></div>
+            </div>
+            <div id="eight" class="col square White"></div>
+            <div id="seven" class="col square Black">
+              <div class="playableSquare" data-position="5,8"></div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col square Black">
+              <div class="player2ChessPieces" data-position="6,1"></div>
+            </div>
+            <div class="col square White"></div>
+            <div class="col square Black">
+              <div class="player2ChessPieces" data-position="6,3"></div>
+            </div>
+            <div class="col square White"></div>
+            <div class="col square Black">
+              <div class="player2ChessPieces" data-position="6,5"></div>
+            </div>
+            <div class="col square White"></div>
+            <div class="col square Black">
+              <div class="player2ChessPieces" data-position="6,7"></div>
+            </div>
+            <div class="col square White"></div>
+          </div>
+
+          <div class="row">
+            <div id="two" class="col square White"></div>
+            <div id="one" class="col square Black">
+              <div class="player2ChessPieces" data-position="7,2"></div>
+            </div>
+            <div id="four" class="col square White"></div>
+            <div id="three" class="col square Black">
+              <div class="player2ChessPieces" data-position="7,4"></div>
+            </div>
+            <div id="six" class="col square White"></div>
+            <div id="five" class="col square Black">
+              <div class="player2ChessPieces" data-position="7,6"></div>
+            </div>
+            <div id="eight" class="col square White"></div>
+            <div id="seven" class="col square Black">
+              <div class="player2ChessPieces" data-position="7,8"></div>
+            </div>
+          </div>
+
+          <div class="row">
+            <div class="col square Black">
+              <div class="player2ChessPieces" data-position="8,1"></div>
+            </div>
+            <div class="col square White"></div>
+            <div class="col square Black">
+              <div class="player2ChessPieces" data-position="8,3"></div>
+            </div>
+            <div class="col square White"></div>
+            <div class="col square Black">
+              <div class="player2ChessPieces" data-position="8,5"></div>
+            </div>
+            <div class="col square White"></div>
+            <div class="col square Black">
+              <div class="player2ChessPieces" data-position="8,7"></div>
+            </div>
+            <div class="col square White"></div>
+          </div>
+        </div>
+      </div>
+      <div class="moveReplay">
+        <div class="replayContent">
+          <div class="card left">
+            <h3>Player 1 Moves:</h3>
+            <hr />
+            <div class="moves">
+              <ul class="player1ScoreCard"></ul>
+            </div>
+          </div>
+          <div class="card">
+            <h3>Player 2 Moves:</h3>
+            <hr />
+            <div class="moves">
+              <ul class="player2ScoreCard"></ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <script src="Js/play.js"></script>
+  </body>
+</html>
